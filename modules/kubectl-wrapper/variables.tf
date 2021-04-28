@@ -91,7 +91,7 @@ variable "use_existing_context" {
 variable "internal_ip" {
   description = "Use internal ip for the cluster endpoint."
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "service_account_key_file" {
